@@ -53,7 +53,7 @@ Will load the saved_weights from `my_new_config.json` and then predict on the te
     - use_estop: Use early stopping
     - estop_num_epochs: Number of epochs to wait before early stopping
 - filepaths:
-    - data_dir_path: path to were the data is
+    - data_dir_path: path to where the data is
     - hdf5_stem: file name stem
     - train_dataset: filepath to train dataset
     - val_dataset: filepath to val dataset
@@ -62,4 +62,7 @@ Will load the saved_weights from `my_new_config.json` and then predict on the te
     - saved_weights_path: filepath for where to save/load weights
     - loss_plot_path: filepath to save a training loss plot
     - results_plot_path: filepath to save a regression plot
-    - combined_plot_path: filepath to save a training loss and regression plot
+    - auc_plot_path: filepath to save an auc curve plot
+ 
+## Transforms file
+For adding image augmentations to training sets to improve model robustness and generalization power.
