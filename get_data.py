@@ -60,8 +60,6 @@ def get_key_to_file_dict(config):
     fids = []
     hdf5_fs = glob(config['filepaths']['data_dir_path'] + '*.hdf5')
     for filename in hdf5_fs:
-        if '_9' in filename:
-            continue
         f = h5py.File(filename, 'r')
         fid = filename.split('1024_')[1].split('.')[0]
         f_keys = f.keys()
