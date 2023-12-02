@@ -19,14 +19,13 @@
     "filepaths": {
         "data_dir_path": "../../../teams/a01/extra/",
         "hdf5_stem": "bnpp_frontalonly_1024_",
-        "train_dataset": "BNPP_DT_train_with_ages.csv",
-        "val_dataset": "BNPP_DT_val_with_ages.csv",
-        "test_dataset": "BNPP_DT_test_with_ages.csv",
-        "results_csv_path": "results.csv",
-        "saved_weights_path": "best_weights.pt",
-        "loss_plot_path": "loss_plot_test.png",
-        "results_plot_path": "results_plot_test.png",
-        "combined_plot_path": "combined_plot_test.png",
-        "auc_plot_path": "auc_plot_test.png"
+        "train_dataset": "data/BNPP_DT_train_with_ages.csv",
+        "val_dataset": "data/BNPP_DT_val_with_ages.csv",
+        "test_dataset": "data/BNPP_DT_test_with_ages.csv",
+        "results_csv_path": "results/results.csv",
+        "saved_weights_path": "results/best_weights.pt",
+        "loss_plot_path": "results/loss_plot_test.png",
+        "results_plot_path": "results/results_plot_test.png",
+        "auc_plot_path": "results/auc_plot_test.png"
     }
 }
